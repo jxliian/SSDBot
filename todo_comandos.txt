@@ -1,0 +1,127 @@
+
+    Comandos de Protección: (todos hechos)
+
+        %antiraid on — Activar la protección anti-raid. - hecho
+
+        %antiraid off — Desactivar la protección anti-raid. - hecho 
+
+        %antispam on — Activar protección contra spam. - hecho y va genial
+
+        %antispam off — Desactivar protección contra spam. - hecho pero no comprobado
+
+
+    Comandos de Seguridad de Mensajes: (hechos todos)
+
+        %addfilter <palabra> — Añadir una palabra a la lista de palabras prohibidas.
+
+        %removefilter <palabra> — Eliminar una palabra de la lista de palabras prohibidas.
+
+        %removeallfilter <palabra> - Eliminar toda la lista de palabras prohibidas
+
+
+    Comandos de Información de Seguridad: (hechos todos)
+
+        %securitystatus — Ver el estado de la seguridad del servidor (filtros (ESTE DE PALABRAS NO va muy bien), anti-raid, etc.).
+
+        %securitylog — Ver los logs de seguridad recientes.
+
+    Comandos de Administración del Bot: (hechos todos)
+
+    %reboot — Reiniciar el bot.
+
+    %status — Ver el estado del bot (online/offline).
+
+    %uptime — Ver el tiempo de actividad del bot.
+
+
+    Comandos de Gestión de Roles: (hechos todos)
+
+        %addrole <usuario> <rol> — Asignar un rol a un usuario.
+
+        %removerole <usuario> <rol> — Eliminar un rol de un usuario.
+
+        %createrole <nombre> [permisos] — Crear un nuevo rol.
+
+        %deleterole <rol> — Eliminar un rol.
+
+    PARA EL CREATE ROLE, no hace falta el numerico, pero estos son:
+
+    Permiso	Valor numérico
+    ADMINISTRATOR	8
+    VIEW_AUDIT_LOG	128
+    MANAGE_GUILD	32
+    MANAGE_ROLES	268435456
+    MANAGE_CHANNELS	16
+    KICK_MEMBERS	2
+    BAN_MEMBERS	4
+    CREATE_INSTANT_INVITE	1
+    MANAGE_EXTENSIONS	536870912
+    READ_MESSAGES	1048576
+    SEND_MESSAGES	2048
+    SEND_TTS_MESSAGES	4096
+    MANAGE_MESSAGES	8192
+    EMBED_LINKS	16384
+    ATTACH_FILES	32768
+    READ_MESSAGE_HISTORY	65536
+    MENTION_EVERYONE	131072
+    USE_EXTERNAL_EMOJIS	262144
+    USE_EXTERNAL_STICKERS	524288
+    ADD_REACTIONS	64
+    VIEW_CHANNEL	1024
+    PRIORITY_SPEAKER	8388608
+    STREAM	16777216
+    CONNECT	2097152
+    SPEAK	4194304
+    MUTE_MEMBERS	131072
+    DEAFEN_MEMBERS	65536
+    MOVE_MEMBERS	1048576
+    USE_VAD	8192
+    MANAGE_NICKNAMES	512
+    MANAGE_EMOJIS_AND_STICKERS	262144
+    USE_APPLICATION_COMMANDS	262144
+    REQUEST_TO_SPEAK	2097152
+    MANAGE_THREADS	8388608
+    USE_PUBLIC_THREADS	67108864
+    USE_PRIVATE_THREADS	134217728
+    MODERATE_MEMBERS	33554432
+
+    Comandos de Moderación General: (todos hechos)
+
+        %kick <usuario> [razón] — Expulsar a un usuario. -hecho
+
+        %ban <usuario> [razón] — Banear a un usuario.  -hecho
+
+        %unban <usuario> — Desbanear a un usuario. -hecho
+
+        %mute <usuario> [razón] — Silenciar a un usuario. -hecho
+
+        %unmute <usuario> — Desilenciar a un usuario. -hecho
+
+        %warn <usuario> [razón] — Avertir a un usuario. -hecho
+
+            - warnings - para ver todos
+            - clearwarns para quitar todos
+            - removewarning para uno en especifico
+
+        %clear <cantidad> — Eliminar mensajes en el canal (limpiar). -hecho
+
+    Comandos de Verificación: (todos hechos)
+
+        %userinfo <usuario> — Mostrar información del usuario (incluyendo advertencias, etc.).
+
+        %serverinfo — Mostrar información sobre el servidor (miembros, roles, canales).
+
+        %auditlog — Ver el registro de auditoría del servidor.
+
+
+        Comandos de Seguridad de Servidor: (todos hechos)
+
+        %lockdown [canal] — Bloquear un canal para todos excepto administradores.
+
+        %unlock [canal] — Desbloquear un canal.
+
+        %setprefix <prefijo> — Cambiar el prefijo del bot. -> No se si va del todo bien
+
+        %setlog <canal> — Establecer un canal de registros de moderación. -> No se si va del todo bien
+
+        %setmod <rol> — Establecer el rol de moderador. -> No se si va del todo bien
