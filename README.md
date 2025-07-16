@@ -2,6 +2,8 @@
 
 # 🚀 SSDBot (Spanish Security Discord Bot)
 
+> **ANOTACIÓN:** Actualmente este bot solo se puede ejecutar localmente debido a que no se disponen de medios económicos para poder traspasarlo a un entorno global en el que cualquier persona podría utilizarlo (pero podría hacerse si se cuelga en una web-host), recuerdo que existe un apartado para ayudarme a seguir desarrollando software en mi perfil!
+
 ¡Bienvenido al repositorio de SSDBot ! Este bot está diseñado para proporcionar herramientas de seguridad y administración potentes para servidores de Discord. Con comandos para la protección contra raids, moderación avanzada como anti-spam, gestión de roles y más, **SSDBot** es la solución perfecta para mantener tu servidor seguro y bien gestionado.
 
 ## 📜 **Características**
