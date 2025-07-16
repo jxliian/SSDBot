@@ -1,6 +1,5 @@
 ![SSDBot](imgs_presentacion/bot_SDB.jpeg)
 
-
 # 🚀 SSDBot (Spanish Security Discord Bot)
 
 ¡Bienvenido al repositorio de SSDBot ! Este bot está diseñado para proporcionar herramientas de seguridad y administración potentes para servidores de Discord. Con comandos para la protección contra raids, moderación avanzada como anti-spam, gestión de roles y más, **SSDBot** es la solución perfecta para mantener tu servidor seguro y bien gestionado.
@@ -133,10 +132,13 @@ git clone https://github.com/tuusuario/MiBot.git
 
 Instala las dependencias necesarias utilizando pip:
 
+```bash
+
 cd MiBot
 python -m venv venv
 source venv/bin/activate  # En Windows usa `venv\Scripts\activate`
 pip install -r requirements.txt
+```
 
 ## 3. Configuración del Bot y Ejecucion
 
@@ -194,11 +196,6 @@ No dudes en ponerte en contacto con nosotros si tienes alguna duda o sugerencia.
 ![SSDBot](imgs_presentacion/varios_comm_1.png)
 ![SSDBot](imgs_presentacion/auditlog.png)
 ![SSDBot](imgs_presentacion/presentacion2.png)
-
-
-
-
-
 
 ---
 
@@ -319,7 +316,7 @@ Commands to manage server and channel security:
 
 # 📥 Installation and Usage
 
-* You can check the following steps in spanish, its just executing the commands :)
+* You can check the following steps in Spanish, its just executing the commands :)
 
 ---
 
